@@ -18,5 +18,4 @@ login_quene_players_concurents = int    # loginQueueConcurrentPlayers
 check_invalid_files = bool  # storageAutoFix
 respawn_time = int  # respawn time in seconds
 multithread_replication = bool  # multithreadedReplication
-
 mission_template = str
