@@ -1,0 +1,3 @@
+def CreateConfig(server_name, password, admin_password, enable_whitelist, check_players_client, disable_voice_chat, voice_chat_io_quality, disable_tps, disable_crosshair, disable_personal_lighting, darker_night, server_time, server_time_acceleration, server_night_time_acceleration, save_game_time, max_login_quene_players, login_quene_players_concurents, check_invalid_files, respawn_time, multithread_replication, mission_template):
+    with open("ServerDZ.cfg", "w") as server_config_file
+        server_config_file.write(f'hostname = "{server_name}";\npassword = "{password}";\npasswordAdmin = "{admin_password}";\n')
